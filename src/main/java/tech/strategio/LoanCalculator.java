@@ -13,9 +13,12 @@ public class LoanCalculator {
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Add your code below
+        System.out.println("getRemainingAmountIn3Months(amount)");
+        return amount;
     }
-
+    
     public static void main(String[] args) {
+        System.out.println("getRemainingAmountIn3Months(amount)");
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
         System.out.println(getRemainingAmountIn3Months(amount));
